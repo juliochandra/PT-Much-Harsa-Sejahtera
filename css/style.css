@@ -677,11 +677,10 @@
   color: #555;
 }
 
-/* CSS for Responsive Google Maps */
 .map-container {
   position: relative;
   overflow: hidden;
-  padding-top: 56.25%; /* 16:9 aspect ratio (divides 9 by 16) */
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
 }
 
 .map-container iframe {
@@ -689,5 +688,5 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 70%;
 }
